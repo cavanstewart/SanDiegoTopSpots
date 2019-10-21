@@ -1,0 +1,32 @@
+.loc-button {
+    color: grey;
+    background-color: white;
+    border-color: grey;
+    border-radius: 1px;
+    border: solid 1px grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.loc-button:hover {
+    border-color: maroon;
+    color: maroon;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background: maroon;
+}
+
+tr:nth-child(odd) {
+    background: #cccccc69;
+}

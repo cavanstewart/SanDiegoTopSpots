@@ -2,7 +2,8 @@
     "name": "san-diego-top-spots",
     "version": "0.1.0",
     "scripts": {
-        "test": "mocha --exit"
+        "test": "mocha --exit",
+        "dev": "lite-server"
     },
     "dependencies": {
         "chai": "^4.0.2",
@@ -12,5 +13,8 @@
         "mocha": "^5.2.0",
         "morgan": "^1.8.2",
         "nightmare": "^2.10.0"
+    },
+    "devDependencies": {
+        "lite-server": "^2.5.4"
     }
 }
